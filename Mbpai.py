@@ -149,7 +149,7 @@ def menu():
 	except Exception as e:
 	    	print ("\n[•] Error : %s"%e)
 	def    	menu():
-    	print("\n[1] Dump ID From Friend")
+    	print("[1] Dump ID From Friend")
     	print("[2] Dump ID From Public")
     	print("[3] Dump ID From Followers")
 	print("[4] Get Data Target")
