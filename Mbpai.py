@@ -148,7 +148,7 @@ def menu():
 	    	id = a['id']
 	except Exception as e:
 	    	print ("\n[•] Error : %s"%e)
-	    	login()
+	def    	menu():
     	print("\n[1] Dump ID From Friend")
     	print("[2] Dump ID From Public")
     	print("[3] Dump ID From Followers")
@@ -411,4 +411,4 @@ def target():
 		exit("[•] Error : %s"%e)
 		
 if __name__=='__main__':
-	menu()
+	login()
